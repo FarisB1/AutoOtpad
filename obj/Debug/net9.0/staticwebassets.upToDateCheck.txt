@@ -1,0 +1,160 @@
+C:\Users\farex\Documents\GitHub\Projekat-AutoOtpad AutoDijelovi\AutoOtpad\wwwroot\favicon.ico
+C:\Users\farex\Documents\GitHub\Projekat-AutoOtpad AutoDijelovi\AutoOtpad\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+C:\Users\farex\Documents\GitHub\Projekat-AutoOtpad AutoDijelovi\AutoOtpad\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
+C:\Users\farex\Documents\GitHub\Projekat-AutoOtpad AutoDijelovi\AutoOtpad\wwwroot\css\nicepage.css
+C:\Users\farex\Documents\GitHub\Projekat-AutoOtpad AutoDijelovi\AutoOtpad\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
+C:\Users\farex\Documents\GitHub\Projekat-AutoOtpad AutoDijelovi\AutoOtpad\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
+C:\Users\farex\Documents\GitHub\Projekat-AutoOtpad AutoDijelovi\AutoOtpad\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
+C:\Users\farex\Documents\GitHub\Projekat-AutoOtpad AutoDijelovi\AutoOtpad\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
+C:\Users\farex\Documents\GitHub\Projekat-AutoOtpad AutoDijelovi\AutoOtpad\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
+C:\Users\farex\Documents\GitHub\Projekat-AutoOtpad AutoDijelovi\AutoOtpad\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+C:\Users\farex\Documents\GitHub\Projekat-AutoOtpad AutoDijelovi\AutoOtpad\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
+C:\Users\farex\Documents\GitHub\Projekat-AutoOtpad AutoDijelovi\AutoOtpad\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
+C:\Users\farex\Documents\GitHub\Projekat-AutoOtpad AutoDijelovi\AutoOtpad\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
+C:\Users\farex\Documents\GitHub\Projekat-AutoOtpad AutoDijelovi\AutoOtpad\wwwroot\lib\jquery-validation\LICENSE.md
+C:\Users\farex\Documents\GitHub\Projekat-AutoOtpad AutoDijelovi\AutoOtpad\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
+C:\Users\farex\Documents\GitHub\Projekat-AutoOtpad AutoDijelovi\AutoOtpad\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
+C:\Users\farex\Documents\GitHub\Projekat-AutoOtpad AutoDijelovi\AutoOtpad\wwwroot\lib\jquery\dist\jquery.slim.min.map
+C:\Users\farex\Documents\GitHub\Projekat-AutoOtpad AutoDijelovi\AutoOtpad\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
+C:\Users\farex\Documents\GitHub\Projekat-AutoOtpad AutoDijelovi\AutoOtpad\wwwroot\lib\jquery\LICENSE.txt
+C:\Users\farex\Documents\GitHub\Projekat-AutoOtpad AutoDijelovi\AutoOtpad\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
+C:\Users\farex\Documents\GitHub\Projekat-AutoOtpad AutoDijelovi\AutoOtpad\wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.min.js
+C:\Users\farex\Documents\GitHub\Projekat-AutoOtpad AutoDijelovi\AutoOtpad\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
+C:\Users\farex\Documents\GitHub\Projekat-AutoOtpad AutoDijelovi\AutoOtpad\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
+C:\Users\farex\Documents\GitHub\Projekat-AutoOtpad AutoDijelovi\AutoOtpad\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
+C:\Users\farex\Documents\GitHub\Projekat-AutoOtpad AutoDijelovi\AutoOtpad\wwwroot\lib\bootstrap\dist\js\bootstrap.js
+C:\Users\farex\Documents\GitHub\Projekat-AutoOtpad AutoDijelovi\AutoOtpad\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
+C:\Users\farex\Documents\GitHub\Projekat-AutoOtpad AutoDijelovi\AutoOtpad\wwwroot\js\site.js
+C:\Users\farex\Documents\GitHub\Projekat-AutoOtpad AutoDijelovi\AutoOtpad\wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.js
+C:\Users\farex\Documents\GitHub\Projekat-AutoOtpad AutoDijelovi\AutoOtpad\wwwroot\css\index.css
+C:\Users\farex\Documents\GitHub\Projekat-AutoOtpad AutoDijelovi\AutoOtpad\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
+C:\Users\farex\Documents\GitHub\Projekat-AutoOtpad AutoDijelovi\AutoOtpad\wwwroot\js\jquery.js
+C:\Users\farex\Documents\GitHub\Projekat-AutoOtpad AutoDijelovi\AutoOtpad\wwwroot\lib\jquery-validation\dist\jquery.validate.js
+C:\Users\farex\Documents\GitHub\Projekat-AutoOtpad AutoDijelovi\AutoOtpad\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
+C:\Users\farex\Documents\GitHub\Projekat-AutoOtpad AutoDijelovi\AutoOtpad\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
+C:\Users\farex\Documents\GitHub\Projekat-AutoOtpad AutoDijelovi\AutoOtpad\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
+C:\Users\farex\Documents\GitHub\Projekat-AutoOtpad AutoDijelovi\AutoOtpad\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+C:\Users\farex\Documents\GitHub\Projekat-AutoOtpad AutoDijelovi\AutoOtpad\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
+C:\Users\farex\Documents\GitHub\Projekat-AutoOtpad AutoDijelovi\AutoOtpad\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
+C:\Users\farex\Documents\GitHub\Projekat-AutoOtpad AutoDijelovi\AutoOtpad\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
+C:\Users\farex\Documents\GitHub\Projekat-AutoOtpad AutoDijelovi\AutoOtpad\wwwroot\js\nicepage.js
+C:\Users\farex\Documents\GitHub\Projekat-AutoOtpad AutoDijelovi\AutoOtpad\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
+C:\Users\farex\Documents\GitHub\Projekat-AutoOtpad AutoDijelovi\AutoOtpad\wwwroot\css\site.css
+C:\Users\farex\Documents\GitHub\Projekat-AutoOtpad AutoDijelovi\AutoOtpad\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
+C:\Users\farex\Documents\GitHub\Projekat-AutoOtpad AutoDijelovi\AutoOtpad\wwwroot\css\About.css
+C:\Users\farex\Documents\GitHub\Projekat-AutoOtpad AutoDijelovi\AutoOtpad\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
+C:\Users\farex\Documents\GitHub\Projekat-AutoOtpad AutoDijelovi\AutoOtpad\wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
+C:\Users\farex\Documents\GitHub\Projekat-AutoOtpad AutoDijelovi\AutoOtpad\wwwroot\lib\jquery\dist\jquery.min.js
+C:\Users\farex\Documents\GitHub\Projekat-AutoOtpad AutoDijelovi\AutoOtpad\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
+C:\Users\farex\Documents\GitHub\Projekat-AutoOtpad AutoDijelovi\AutoOtpad\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
+C:\Users\farex\Documents\GitHub\Projekat-AutoOtpad AutoDijelovi\AutoOtpad\wwwroot\css\Contact.css
+C:\Users\farex\Documents\GitHub\Projekat-AutoOtpad AutoDijelovi\AutoOtpad\wwwroot\lib\jquery\dist\jquery.slim.js
+C:\Users\farex\Documents\GitHub\Projekat-AutoOtpad AutoDijelovi\AutoOtpad\wwwroot\lib\jquery\dist\jquery.slim.min.js
+C:\Users\farex\Documents\GitHub\Projekat-AutoOtpad AutoDijelovi\AutoOtpad\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+C:\Users\farex\Documents\GitHub\Projekat-AutoOtpad AutoDijelovi\AutoOtpad\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+C:\Users\farex\Documents\GitHub\Projekat-AutoOtpad AutoDijelovi\AutoOtpad\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
+C:\Users\farex\Documents\GitHub\Projekat-AutoOtpad AutoDijelovi\AutoOtpad\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
+C:\Users\farex\Documents\GitHub\Projekat-AutoOtpad AutoDijelovi\AutoOtpad\wwwroot\lib\bootstrap\dist\css\bootstrap.css
+C:\Users\farex\Documents\GitHub\Projekat-AutoOtpad AutoDijelovi\AutoOtpad\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
+C:\Users\farex\Documents\GitHub\Projekat-AutoOtpad AutoDijelovi\AutoOtpad\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
+C:\Users\farex\Documents\GitHub\Projekat-AutoOtpad AutoDijelovi\AutoOtpad\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
+C:\Users\farex\Documents\GitHub\Projekat-AutoOtpad AutoDijelovi\AutoOtpad\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
+C:\Users\farex\Documents\GitHub\Projekat-AutoOtpad AutoDijelovi\AutoOtpad\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
+C:\Users\farex\Documents\GitHub\Projekat-AutoOtpad AutoDijelovi\AutoOtpad\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
+C:\Users\farex\Documents\GitHub\Projekat-AutoOtpad AutoDijelovi\AutoOtpad\wwwroot\lib\jquery\dist\jquery.min.map
+C:\Users\farex\Documents\GitHub\Projekat-AutoOtpad AutoDijelovi\AutoOtpad\wwwroot\lib\jquery-validation\dist\additional-methods.js
+C:\Users\farex\Documents\GitHub\Projekat-AutoOtpad AutoDijelovi\AutoOtpad\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
+C:\Users\farex\Documents\GitHub\Projekat-AutoOtpad AutoDijelovi\AutoOtpad\wwwroot\lib\jquery\dist\jquery.js
+C:\Users\farex\Documents\GitHub\Projekat-AutoOtpad AutoDijelovi\AutoOtpad\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
+wwwroot\css\About.css
+wwwroot\css\Contact.css
+wwwroot\css\index.css
+wwwroot\css\nicepage.css
+wwwroot\css\site.css
+wwwroot\favicon.ico
+wwwroot\images\1007988.png
+wwwroot\images\1007988-edee52e7.png
+wwwroot\images\1067566.png
+wwwroot\images\1067566-a543aeb6.png
+wwwroot\images\12050562.png
+wwwroot\images\12050562-12330d6b.png
+wwwroot\images\1581942.png
+wwwroot\images\1581942-10f64659.png
+wwwroot\images\1831669.png
+wwwroot\images\1831669-94616e4b.png
+wwwroot\images\2822686.png
+wwwroot\images\2822686-765d7da3.png
+wwwroot\images\AFYC_white.png
+wwwroot\images\AFYC3.png
+wwwroot\images\auto-mechanic-working-garage-repair-service7.jpg
+wwwroot\images\mechanic-preparing-check-list3.jpg
+wwwroot\images\mechanic-servicing-car-engine-5-min.jpg
+wwwroot\images\parts\3a3d2d55-214e-4842-8399-30020080820f.jpg
+wwwroot\images\parts\d6341311-243c-4d65-8f50-551b09073aff.jpg
+wwwroot\images\parts\d7bd6b40-5ad1-4a4b-9e42-3f4bc70a4052.jpg
+wwwroot\images\parts\f12b1363-4f85-4113-bb63-f90bed9e975a.png
+wwwroot\images\photo-1567808291548-fc3ee04dbcf0.jpeg
+wwwroot\images\photo-1745949779026-f7fdd1470f8c.jpeg
+wwwroot\js\jquery.js
+wwwroot\js\nicepage.js
+wwwroot\js\site.js
+wwwroot\lib\bootstrap\dist\css\bootstrap.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
+wwwroot\lib\bootstrap\LICENSE
+wwwroot\lib\jquery\dist\jquery.js
+wwwroot\lib\jquery\dist\jquery.min.js
+wwwroot\lib\jquery\dist\jquery.min.map
+wwwroot\lib\jquery\dist\jquery.slim.js
+wwwroot\lib\jquery\dist\jquery.slim.min.js
+wwwroot\lib\jquery\dist\jquery.slim.min.map
+wwwroot\lib\jquery\LICENSE.txt
+wwwroot\lib\jquery-validation\dist\additional-methods.js
+wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+wwwroot\lib\jquery-validation\dist\jquery.validate.js
+wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+wwwroot\lib\jquery-validation\LICENSE.md
+wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.js
+wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.min.js
+wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt

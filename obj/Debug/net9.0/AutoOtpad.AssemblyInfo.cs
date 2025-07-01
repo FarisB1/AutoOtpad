@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AutoOtpad")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+61875dffefddeeaeff1e705f58c9a6b9e3b20279")]
 [assembly: System.Reflection.AssemblyProductAttribute("AutoOtpad")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AutoOtpad")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
