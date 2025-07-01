@@ -1,0 +1,52 @@
+﻿@model List<AutoOtpad.Models.Message>
+@{
+    var userId = int.Parse(Context.Session.GetString("UserId") ?? "0");
+    var selectedUserId = ViewBag.WithUserId as int?;
+    var users = ViewBag.Users as List<AutoOtpad.Models.User>;
+}
+
+<h2>Poruke</h2>
+
+<div class="row">
+    <div class="col-3 border-end">
+        <h5>Korisnici</h5>
+        <ul class="list-group">
+            @foreach (var user in users)
+            {
+                <li class="list-group-item @(user.Id == selectedUserId ? "active" : "")">
+                    <a href="@Url.Action("Index", new { withUserId = user.Id })" class="text-decoration-none text-dark">
+                        @user.Username
+                    </a>
+                </li>
+            }
+        </ul>
+    </div>
+
+    <div class="col-9">
+        @if (selectedUserId != null)
+        {
+            <div class="border p-3 mb-3" style="height: 300px; overflow-y: auto; background-color: #f8f9fa;">
+                @foreach (var msg in Model)
+                {
+                    <div class="mb-2">
+                        <strong>@(msg.SenderId == userId ? "Ja" : msg.Sender.Username):</strong>
+                        @msg.Content <br />
+                        <small class="text-muted">@msg.SentAt.ToString("g")</small>
+                    </div>
+                }
+            </div>
+
+            <form asp-action="SendMessage" method="post">
+                <input type="hidden" name="receiverId" value="@selectedUserId" />
+                <div class="input-group">
+                    <input type="text" name="content" class="form-control" placeholder="Unesi poruku..." required />
+                    <button type="submit" class="btn btn-primary">Pošalji</button>
+                </div>
+            </form>
+        }
+        else
+        {
+            <p>Odaberi korisnika za razgovor.</p>
+        }
+    </div>
+</div>

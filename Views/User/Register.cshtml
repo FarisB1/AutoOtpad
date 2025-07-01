@@ -1,0 +1,60 @@
+﻿@{
+    ViewData["Title"] = "Register";
+}
+<head>
+    <link rel="stylesheet" href="~/css/nicepage.css" media="screen">
+    <script class="u-script" type="text/javascript" src="~/js/jquery.js" defer=""></script>
+    <script class="u-script" type="text/javascript" src="~/js/nicepage.js" defer=""></script>
+    <meta name="generator" content="Nicepage 7.7.3, nicepage.com">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
+</head>
+<div class="form-container">
+    <h2 class="mb-4 text-center">Kreirajte račun</h2>
+    <form method="post" action="/User/Register" id="registerForm">
+        <div class="mb-3">
+            <label for="username" class="form-label">Korisničko ime</label>
+            <input type="text" name="username" id="username" class="form-control" required />
+        </div>
+
+        <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" name="email" id="email" class="form-control" required />
+        </div>
+
+        <div class="mb-4">
+            <label for="password" class="form-label">Šifra</label>
+            <input type="password" name="password" id="password" class="form-control" required minlength="6" />
+        </div>
+
+        <button type="submit" class="btn btn-primary w-100">Register</button>
+    </form>
+</div>
+<style>
+    .container {
+        margin-top:6vh;
+        margin-bottom:6vh;
+        display: flex !important;
+        justify-content: center !important;
+    }
+
+
+    .form-container {
+        max-width: 400px;
+        margin: 80px auto;
+        padding: 30px;
+        background: white;
+        border-radius: 12px;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+    }
+</style>
+@if (!ViewData.ModelState.IsValid)
+{
+    <ul style="color:red;">
+        @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+        {
+            <li>@error.ErrorMessage</li>
+        }
+    </ul>
+}

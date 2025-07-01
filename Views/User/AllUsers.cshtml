@@ -1,0 +1,39 @@
+﻿@model IEnumerable<AutoOtpad.Models.User>
+@{
+    ViewData["Title"] = "Svi Korisnici";
+}
+
+@if(string.Compare(Context.Session.GetString("Role"),"Admin") == 0)
+{
+<h2>Svi Korisnici</h2>
+
+<table class="table table-bordered table-striped">
+    <thead class="table-dark">
+        <tr>
+            <th>ID</th>
+            <th>Korisničko Ime</th>
+            <th>Uloga</th>
+            <th>Akcije</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in Model)
+        {
+            <tr>
+                <td>@user.Id</td>
+                <td>@user.Username</td>
+                <td>@user.Role</td>
+                <td>
+                    <a asp-action="EditRole" asp-route-id="@user.Id" class="btn btn-warning btn-sm">Promijeni Ulogu</a>
+                    <form asp-action="Delete" asp-route-id="@user.Id" method="post" style="display:inline;" onsubmit="return confirm('Jeste li sigurni da želite obrisati korisnika?');">
+                        <button type="submit" class="btn btn-danger btn-sm">Obriši</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+}
+else{
+    <h1 style="margin-top: 22vh; margin-bottom: 22vh; text-align:center">Nemate pristup ovoj stranici</h1>
+}

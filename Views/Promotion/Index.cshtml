@@ -1,0 +1,41 @@
+﻿@model List<Promotion>
+@if (string.Compare(Context.Session.GetString("Role"), "Admin") == 0)
+{
+
+
+<h2>Aktivne promocije</h2>
+
+<a asp-action="Create" class="btn btn-primary mb-3">Dodaj promociju</a>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Naziv</th>
+            <th>Dio</th>
+            <th>Popust (%)</th>
+            <th>Period</th>
+            <th>Aktivna</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var promo in Model)
+        {
+            <tr>
+                <td>@promo.Name</td>
+                <td>@promo.Part?.Name</td>
+                <td>@promo.DiscountPercentage</td>
+                <td>@promo.StartDate.ToShortDateString() - @promo.EndDate.ToShortDateString()</td>
+                <td>@(promo.IsActive ? "Da" : "Ne")</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@promo.Id" class="btn btn-sm btn-primary">Uredi</a>
+                    <a asp-action="Delete" asp-route-id="@promo.Id" class="btn btn-sm btn-danger">Obriši</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+}
+else
+{
+    <h1 style="margin-top: 22vh; margin-bottom: 22vh; text-align:center">Nemate pristup ovoj stranici</h1>
+}

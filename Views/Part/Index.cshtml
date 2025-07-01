@@ -1,0 +1,126 @@
+﻿@model PartFilterViewModel
+
+<h2>Dijelovi</h2>
+<a asp-action="Add" class="btn btn-success mb-4">Dodaj novi dio</a>
+
+<form method="get" class="row g-3 mb-4">
+    <div class="col-md-3">
+        <input type="text" name="search" value="@Model.Search" class="form-control" placeholder="Traži po nazivu" />
+    </div>
+    <div class="col-md-2">
+        <select name="vehicleMake" class="form-select">
+            <option value="">-- Marka --</option>
+            @foreach (var make in Model.AvailableMakes)
+            {
+                <option value="@make" selected="@(make == Model.VehicleMake)">@make</option>
+            }
+        </select>
+    </div>
+    <div class="col-md-2">
+        <select name="condition" class="form-select">
+            <option value="">-- Stanje --</option>
+            @foreach (var cond in Model.AvailableConditions)
+            {
+                <option value="@cond" selected="@(cond == Model.Condition)">@cond</option>
+            }
+        </select>
+    </div>
+    <div class="col-md-4">
+        <label class="form-label">Cijena (KM):</label>
+        <div class="d-flex align-items-center gap-2">
+            <input type="range" class="form-range w-100" id="minPrice" name="minPrice" min="0" max="10000" step="10" value="@Model.MinPrice" oninput="updatePriceDisplay()" />
+            <input type="range" class="form-range w-100" id="maxPrice" name="maxPrice" min="0" max="10000" step="10" value="@Model.MaxPrice" oninput="updatePriceDisplay()" />
+            
+        </div>
+        <div class="d-flex justify-content-between">
+            <small>Min: <span id="minPriceDisplay">@Model.MinPrice</span> KM</small>
+            <small>Max: <span id="maxPriceDisplay">@Model.MaxPrice</span> KM</small>
+        </div>
+    </div>
+
+
+    <div class="col-md-1">
+        <button type="submit" class="btn btn-warning w-100">Filtriraj</button>
+    </div>
+</form>
+
+
+<div class="row row-cols-1 row-cols-md-3 g-4">
+    @foreach (var part in Model.Parts)
+    {
+        <div class="col">
+            <div class="card h-100">
+                <img src="@part.ImagePath" class="card-img-top" style="height:200px; object-fit:contain; margin-top:5vh; margin-bottom: 5vh;" alt="@part.Name" />
+                <div class="card-body">
+                    <h5 class="card-title">@part.Name</h5>
+                    <h6>
+                        @if (part.NeedsRestock)
+                        {
+                            @if (string.Compare(Context.Session.GetString("Role"), "Admin") == 0)
+                            {
+                                <p class="text-danger"><strong>⚠ Potrebna dopuna zaliha!</strong></p>
+                            }
+                            
+                        }
+                    </h6>
+                    <p class="card-text">
+                        @if (part.DiscountedPrice != null)
+                        {
+                        <p style="font-size: 20px">
+                            <span class="text-muted text-decoration-line-through">@part.Price.ToString("0.00") KM</span><br />
+                            <span class="text-danger fw-bold">@part.DiscountedPrice?.ToString("0.00") KM</span><br />
+                            <span class="badge bg-success">Sniženo</span>
+                        </p>
+                        }
+                        else
+                        {
+                        <p style="font-size: 20px; font-weight: 700;">@part.Price.ToString("0.00") KM</p>
+                        }
+
+                        <strong>Marka:</strong> @part.VehicleMake<br />
+                        <strong>Tip:</strong> @part.PartType<br />
+                        <strong>Stanje:</strong> @part.Condition<br />
+                        <strong>Količina:</strong> @part.QuantityInStock<br />
+                        <strong>Testiran:</strong> @(part.IsTested ? "Da" : "Ne")<br />
+                        @if (!string.IsNullOrEmpty(part.TestResult))
+                        {
+                            <strong>Rezultat testa:</strong> @part.TestResult
+                        }
+
+                    </p>
+                </div>
+                <div class="card-footer d-flex justify-content-between">
+                    <a asp-controller="Cart" asp-action="AddToCart" asp-route-partId="@part.Id" class="btn btn-outline-primary btn-sm">
+                        Dodaj u korpu
+                    </a>
+                    @if ((string)ViewBag.Role == "Admin")
+                    {
+                        <a asp-action="Edit" asp-route-id="@part.Id" class="btn btn-primary btn-sm">Uredi</a>
+                        <a asp-action="Test" asp-route-id="@part.Id" class="btn btn-warning btn-sm">Testiraj</a>
+                        <a asp-action="Delete" asp-route-id="@part.Id" class="btn btn-danger btn-sm">Obriši</a>
+                    }
+                </div>
+
+            </div>
+        </div>
+    }
+</div>
+
+
+<script>
+    function updatePriceDisplay() {
+        const min = document.getElementById('minPrice');
+        const max = document.getElementById('maxPrice');
+        const minDisplay = document.getElementById('minPriceDisplay');
+        const maxDisplay = document.getElementById('maxPriceDisplay');
+
+        if (parseInt(min.value) > parseInt(max.value)) {
+            [min.value, max.value] = [max.value, min.value];
+        }
+
+        minDisplay.textContent = min.value;
+        maxDisplay.textContent = max.value;
+    }
+
+    window.onload = updatePriceDisplay;
+</script>

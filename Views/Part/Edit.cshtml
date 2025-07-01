@@ -1,0 +1,55 @@
+﻿@model Part
+@if (string.Compare(Context.Session.GetString("Role"), "Admin") == 0)
+{
+
+<h2>Uredi dio</h2>
+
+<form asp-action="Edit" method="post" enctype="multipart/form-data">
+    <input type="hidden" asp-for="Id" />
+    <div class="mb-3">
+        <label asp-for="Name" class="form-label"></label>
+        <input asp-for="Name" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label asp-for="VehicleMake" class="form-label"></label>
+        <input asp-for="VehicleMake" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label asp-for="PartType" class="form-label"></label>
+        <input asp-for="PartType" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label asp-for="Condition" class="form-label"></label>
+        <input asp-for="Condition" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label asp-for="Price" class="form-label"></label>
+        <input asp-for="Price" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label asp-for="QuantityInStock" class="form-label"></label>
+        <input asp-for="QuantityInStock" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label asp-for="Status" class="form-label"></label>
+        <input asp-for="Status" class="form-control" />
+    </div>
+    <div class="mb-3 form-check">
+        <input asp-for="IsTested" class="form-check-input" />
+        <label asp-for="IsTested" class="form-check-label"></label>
+    </div>
+    <div class="mb-3">
+        <label for="ImageFile" class="form-label">Slika dijela</label>
+        <input type="file" name="ImageFile" class="form-control" accept="image/*" />
+    </div>
+
+    <input type="hidden" name="ExistingImagePath" value="@Model.ImagePath" />
+
+    <button type="submit" class="btn btn-primary">Spremi izmjene</button>
+    <a asp-action="Index" class="btn btn-secondary">Nazad</a>
+</form>
+}
+else
+{
+    <h1 style="margin-top: 22vh; margin-bottom: 22vh; text-align:center">Nemate pristup ovoj stranici</h1>
+}

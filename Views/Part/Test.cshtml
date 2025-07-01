@@ -1,0 +1,30 @@
+﻿@model Part
+@{
+    ViewData["Title"] = "Testiranje dijela";
+}
+@if(string.Compare(Context.Session.GetString("Role"),"Admin") == 0)
+{
+
+<h2>Testiranje: @Model.Name</h2>
+
+<form asp-action="Test" method="post">
+    <input type="hidden" name="id" value="@Model.Id" />
+
+    <div class="mb-3">
+        <label for="testResult" class="form-label">Rezultat testa</label>
+        <textarea name="testResult" class="form-control">@Model.TestResult</textarea>
+    </div>
+
+    <div class="form-check mb-3">
+        <input type="checkbox" name="isTested" class="form-check-input" value="true" @(Model.IsTested ? "checked" : "") />
+        <label class="form-check-label">Označi kao testiran</label>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Spremi rezultat</button>
+    <a asp-action="Index" class="btn btn-secondary">Nazad</a>
+</form>
+}
+else
+{
+    <h1 style="margin-top: 22vh; margin-bottom: 22vh; text-align:center">Nemate pristup ovoj stranici</h1>
+}

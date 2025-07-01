@@ -1,0 +1,397 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\farex\\Documents\\GitHub\\Projekat-AutoOtpad AutoDijelovi\\AutoOtpad\\obj\\Release\\net9.0\\scopedcss\\projectbundle\\AutoOtpad.bundle.scp.css",
+      "PackagePath": "staticwebassets\\AutoOtpad.z49m3uxygt.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\farex\\Documents\\GitHub\\Projekat-AutoOtpad AutoDijelovi\\AutoOtpad\\wwwroot\\css\\About.css",
+      "PackagePath": "staticwebassets\\css\\About.css"
+    },
+    {
+      "Id": "C:\\Users\\farex\\Documents\\GitHub\\Projekat-AutoOtpad AutoDijelovi\\AutoOtpad\\wwwroot\\css\\Contact.css",
+      "PackagePath": "staticwebassets\\css\\Contact.css"
+    },
+    {
+      "Id": "C:\\Users\\farex\\Documents\\GitHub\\Projekat-AutoOtpad AutoDijelovi\\AutoOtpad\\wwwroot\\css\\index.css",
+      "PackagePath": "staticwebassets\\css\\index.css"
+    },
+    {
+      "Id": "C:\\Users\\farex\\Documents\\GitHub\\Projekat-AutoOtpad AutoDijelovi\\AutoOtpad\\wwwroot\\css\\nicepage.css",
+      "PackagePath": "staticwebassets\\css\\nicepage.css"
+    },
+    {
+      "Id": "C:\\Users\\farex\\Documents\\GitHub\\Projekat-AutoOtpad AutoDijelovi\\AutoOtpad\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\farex\\Documents\\GitHub\\Projekat-AutoOtpad AutoDijelovi\\AutoOtpad\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\farex\\Documents\\GitHub\\Projekat-AutoOtpad AutoDijelovi\\AutoOtpad\\wwwroot\\images\\1007988-edee52e7.png",
+      "PackagePath": "staticwebassets\\images\\1007988-edee52e7.png"
+    },
+    {
+      "Id": "C:\\Users\\farex\\Documents\\GitHub\\Projekat-AutoOtpad AutoDijelovi\\AutoOtpad\\wwwroot\\images\\1007988.png",
+      "PackagePath": "staticwebassets\\images\\1007988.png"
+    },
+    {
+      "Id": "C:\\Users\\farex\\Documents\\GitHub\\Projekat-AutoOtpad AutoDijelovi\\AutoOtpad\\wwwroot\\images\\1067566-a543aeb6.png",
+      "PackagePath": "staticwebassets\\images\\1067566-a543aeb6.png"
+    },
+    {
+      "Id": "C:\\Users\\farex\\Documents\\GitHub\\Projekat-AutoOtpad AutoDijelovi\\AutoOtpad\\wwwroot\\images\\1067566.png",
+      "PackagePath": "staticwebassets\\images\\1067566.png"
+    },
+    {
+      "Id": "C:\\Users\\farex\\Documents\\GitHub\\Projekat-AutoOtpad AutoDijelovi\\AutoOtpad\\wwwroot\\images\\12050562-12330d6b.png",
+      "PackagePath": "staticwebassets\\images\\12050562-12330d6b.png"
+    },
+    {
+      "Id": "C:\\Users\\farex\\Documents\\GitHub\\Projekat-AutoOtpad AutoDijelovi\\AutoOtpad\\wwwroot\\images\\12050562.png",
+      "PackagePath": "staticwebassets\\images\\12050562.png"
+    },
+    {
+      "Id": "C:\\Users\\farex\\Documents\\GitHub\\Projekat-AutoOtpad AutoDijelovi\\AutoOtpad\\wwwroot\\images\\1581942-10f64659.png",
+      "PackagePath": "staticwebassets\\images\\1581942-10f64659.png"
+    },
+    {
+      "Id": "C:\\Users\\farex\\Documents\\GitHub\\Projekat-AutoOtpad AutoDijelovi\\AutoOtpad\\wwwroot\\images\\1581942.png",
+      "PackagePath": "staticwebassets\\images\\1581942.png"
+    },
+    {
+      "Id": "C:\\Users\\farex\\Documents\\GitHub\\Projekat-AutoOtpad AutoDijelovi\\AutoOtpad\\wwwroot\\images\\1831669-94616e4b.png",
+      "PackagePath": "staticwebassets\\images\\1831669-94616e4b.png"
+    },
+    {
+      "Id": "C:\\Users\\farex\\Documents\\GitHub\\Projekat-AutoOtpad AutoDijelovi\\AutoOtpad\\wwwroot\\images\\1831669.png",
+      "PackagePath": "staticwebassets\\images\\1831669.png"
+    },
+    {
+      "Id": "C:\\Users\\farex\\Documents\\GitHub\\Projekat-AutoOtpad AutoDijelovi\\AutoOtpad\\wwwroot\\images\\2822686-765d7da3.png",
+      "PackagePath": "staticwebassets\\images\\2822686-765d7da3.png"
+    },
+    {
+      "Id": "C:\\Users\\farex\\Documents\\GitHub\\Projekat-AutoOtpad AutoDijelovi\\AutoOtpad\\wwwroot\\images\\2822686.png",
+      "PackagePath": "staticwebassets\\images\\2822686.png"
+    },
+    {
+      "Id": "C:\\Users\\farex\\Documents\\GitHub\\Projekat-AutoOtpad AutoDijelovi\\AutoOtpad\\wwwroot\\images\\AFYC3.png",
+      "PackagePath": "staticwebassets\\images\\AFYC3.png"
+    },
+    {
+      "Id": "C:\\Users\\farex\\Documents\\GitHub\\Projekat-AutoOtpad AutoDijelovi\\AutoOtpad\\wwwroot\\images\\AFYC_white.png",
+      "PackagePath": "staticwebassets\\images\\AFYC_white.png"
+    },
+    {
+      "Id": "C:\\Users\\farex\\Documents\\GitHub\\Projekat-AutoOtpad AutoDijelovi\\AutoOtpad\\wwwroot\\images\\auto-mechanic-working-garage-repair-service7.jpg",
+      "PackagePath": "staticwebassets\\images\\auto-mechanic-working-garage-repair-service7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\farex\\Documents\\GitHub\\Projekat-AutoOtpad AutoDijelovi\\AutoOtpad\\wwwroot\\images\\mechanic-preparing-check-list3.jpg",
+      "PackagePath": "staticwebassets\\images\\mechanic-preparing-check-list3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\farex\\Documents\\GitHub\\Projekat-AutoOtpad AutoDijelovi\\AutoOtpad\\wwwroot\\images\\mechanic-servicing-car-engine-5-min.jpg",
+      "PackagePath": "staticwebassets\\images\\mechanic-servicing-car-engine-5-min.jpg"
+    },
+    {
+      "Id": "C:\\Users\\farex\\Documents\\GitHub\\Projekat-AutoOtpad AutoDijelovi\\AutoOtpad\\wwwroot\\images\\parts\\3a3d2d55-214e-4842-8399-30020080820f.jpg",
+      "PackagePath": "staticwebassets\\images\\parts\\3a3d2d55-214e-4842-8399-30020080820f.jpg"
+    },
+    {
+      "Id": "C:\\Users\\farex\\Documents\\GitHub\\Projekat-AutoOtpad AutoDijelovi\\AutoOtpad\\wwwroot\\images\\parts\\d6341311-243c-4d65-8f50-551b09073aff.jpg",
+      "PackagePath": "staticwebassets\\images\\parts\\d6341311-243c-4d65-8f50-551b09073aff.jpg"
+    },
+    {
+      "Id": "C:\\Users\\farex\\Documents\\GitHub\\Projekat-AutoOtpad AutoDijelovi\\AutoOtpad\\wwwroot\\images\\parts\\d7bd6b40-5ad1-4a4b-9e42-3f4bc70a4052.jpg",
+      "PackagePath": "staticwebassets\\images\\parts\\d7bd6b40-5ad1-4a4b-9e42-3f4bc70a4052.jpg"
+    },
+    {
+      "Id": "C:\\Users\\farex\\Documents\\GitHub\\Projekat-AutoOtpad AutoDijelovi\\AutoOtpad\\wwwroot\\images\\parts\\f12b1363-4f85-4113-bb63-f90bed9e975a.png",
+      "PackagePath": "staticwebassets\\images\\parts\\f12b1363-4f85-4113-bb63-f90bed9e975a.png"
+    },
+    {
+      "Id": "C:\\Users\\farex\\Documents\\GitHub\\Projekat-AutoOtpad AutoDijelovi\\AutoOtpad\\wwwroot\\images\\photo-1567808291548-fc3ee04dbcf0.jpeg",
+      "PackagePath": "staticwebassets\\images\\photo-1567808291548-fc3ee04dbcf0.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\farex\\Documents\\GitHub\\Projekat-AutoOtpad AutoDijelovi\\AutoOtpad\\wwwroot\\images\\photo-1745949779026-f7fdd1470f8c.jpeg",
+      "PackagePath": "staticwebassets\\images\\photo-1745949779026-f7fdd1470f8c.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\farex\\Documents\\GitHub\\Projekat-AutoOtpad AutoDijelovi\\AutoOtpad\\wwwroot\\js\\jquery.js",
+      "PackagePath": "staticwebassets\\js\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\farex\\Documents\\GitHub\\Projekat-AutoOtpad AutoDijelovi\\AutoOtpad\\wwwroot\\js\\nicepage.js",
+      "PackagePath": "staticwebassets\\js\\nicepage.js"
+    },
+    {
+      "Id": "C:\\Users\\farex\\Documents\\GitHub\\Projekat-AutoOtpad AutoDijelovi\\AutoOtpad\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\farex\\Documents\\GitHub\\Projekat-AutoOtpad AutoDijelovi\\AutoOtpad\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\farex\\Documents\\GitHub\\Projekat-AutoOtpad AutoDijelovi\\AutoOtpad\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\farex\\Documents\\GitHub\\Projekat-AutoOtpad AutoDijelovi\\AutoOtpad\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\farex\\Documents\\GitHub\\Projekat-AutoOtpad AutoDijelovi\\AutoOtpad\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\farex\\Documents\\GitHub\\Projekat-AutoOtpad AutoDijelovi\\AutoOtpad\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\farex\\Documents\\GitHub\\Projekat-AutoOtpad AutoDijelovi\\AutoOtpad\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\farex\\Documents\\GitHub\\Projekat-AutoOtpad AutoDijelovi\\AutoOtpad\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\farex\\Documents\\GitHub\\Projekat-AutoOtpad AutoDijelovi\\AutoOtpad\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\farex\\Documents\\GitHub\\Projekat-AutoOtpad AutoDijelovi\\AutoOtpad\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\farex\\Documents\\GitHub\\Projekat-AutoOtpad AutoDijelovi\\AutoOtpad\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\farex\\Documents\\GitHub\\Projekat-AutoOtpad AutoDijelovi\\AutoOtpad\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\farex\\Documents\\GitHub\\Projekat-AutoOtpad AutoDijelovi\\AutoOtpad\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\farex\\Documents\\GitHub\\Projekat-AutoOtpad AutoDijelovi\\AutoOtpad\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\farex\\Documents\\GitHub\\Projekat-AutoOtpad AutoDijelovi\\AutoOtpad\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\farex\\Documents\\GitHub\\Projekat-AutoOtpad AutoDijelovi\\AutoOtpad\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\farex\\Documents\\GitHub\\Projekat-AutoOtpad AutoDijelovi\\AutoOtpad\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\farex\\Documents\\GitHub\\Projekat-AutoOtpad AutoDijelovi\\AutoOtpad\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\farex\\Documents\\GitHub\\Projekat-AutoOtpad AutoDijelovi\\AutoOtpad\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\farex\\Documents\\GitHub\\Projekat-AutoOtpad AutoDijelovi\\AutoOtpad\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\farex\\Documents\\GitHub\\Projekat-AutoOtpad AutoDijelovi\\AutoOtpad\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\farex\\Documents\\GitHub\\Projekat-AutoOtpad AutoDijelovi\\AutoOtpad\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\farex\\Documents\\GitHub\\Projekat-AutoOtpad AutoDijelovi\\AutoOtpad\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\farex\\Documents\\GitHub\\Projekat-AutoOtpad AutoDijelovi\\AutoOtpad\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\farex\\Documents\\GitHub\\Projekat-AutoOtpad AutoDijelovi\\AutoOtpad\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\farex\\Documents\\GitHub\\Projekat-AutoOtpad AutoDijelovi\\AutoOtpad\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\farex\\Documents\\GitHub\\Projekat-AutoOtpad AutoDijelovi\\AutoOtpad\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\farex\\Documents\\GitHub\\Projekat-AutoOtpad AutoDijelovi\\AutoOtpad\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\farex\\Documents\\GitHub\\Projekat-AutoOtpad AutoDijelovi\\AutoOtpad\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\farex\\Documents\\GitHub\\Projekat-AutoOtpad AutoDijelovi\\AutoOtpad\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\farex\\Documents\\GitHub\\Projekat-AutoOtpad AutoDijelovi\\AutoOtpad\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\farex\\Documents\\GitHub\\Projekat-AutoOtpad AutoDijelovi\\AutoOtpad\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\farex\\Documents\\GitHub\\Projekat-AutoOtpad AutoDijelovi\\AutoOtpad\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\farex\\Documents\\GitHub\\Projekat-AutoOtpad AutoDijelovi\\AutoOtpad\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\farex\\Documents\\GitHub\\Projekat-AutoOtpad AutoDijelovi\\AutoOtpad\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\farex\\Documents\\GitHub\\Projekat-AutoOtpad AutoDijelovi\\AutoOtpad\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\farex\\Documents\\GitHub\\Projekat-AutoOtpad AutoDijelovi\\AutoOtpad\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\farex\\Documents\\GitHub\\Projekat-AutoOtpad AutoDijelovi\\AutoOtpad\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\farex\\Documents\\GitHub\\Projekat-AutoOtpad AutoDijelovi\\AutoOtpad\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\farex\\Documents\\GitHub\\Projekat-AutoOtpad AutoDijelovi\\AutoOtpad\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\farex\\Documents\\GitHub\\Projekat-AutoOtpad AutoDijelovi\\AutoOtpad\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\farex\\Documents\\GitHub\\Projekat-AutoOtpad AutoDijelovi\\AutoOtpad\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\farex\\Documents\\GitHub\\Projekat-AutoOtpad AutoDijelovi\\AutoOtpad\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\farex\\Documents\\GitHub\\Projekat-AutoOtpad AutoDijelovi\\AutoOtpad\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\farex\\Documents\\GitHub\\Projekat-AutoOtpad AutoDijelovi\\AutoOtpad\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\farex\\Documents\\GitHub\\Projekat-AutoOtpad AutoDijelovi\\AutoOtpad\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\farex\\Documents\\GitHub\\Projekat-AutoOtpad AutoDijelovi\\AutoOtpad\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\farex\\Documents\\GitHub\\Projekat-AutoOtpad AutoDijelovi\\AutoOtpad\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\farex\\Documents\\GitHub\\Projekat-AutoOtpad AutoDijelovi\\AutoOtpad\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\farex\\Documents\\GitHub\\Projekat-AutoOtpad AutoDijelovi\\AutoOtpad\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\farex\\Documents\\GitHub\\Projekat-AutoOtpad AutoDijelovi\\AutoOtpad\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\farex\\Documents\\GitHub\\Projekat-AutoOtpad AutoDijelovi\\AutoOtpad\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\farex\\Documents\\GitHub\\Projekat-AutoOtpad AutoDijelovi\\AutoOtpad\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\farex\\Documents\\GitHub\\Projekat-AutoOtpad AutoDijelovi\\AutoOtpad\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\farex\\Documents\\GitHub\\Projekat-AutoOtpad AutoDijelovi\\AutoOtpad\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\farex\\Documents\\GitHub\\Projekat-AutoOtpad AutoDijelovi\\AutoOtpad\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\farex\\Documents\\GitHub\\Projekat-AutoOtpad AutoDijelovi\\AutoOtpad\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\farex\\Documents\\GitHub\\Projekat-AutoOtpad AutoDijelovi\\AutoOtpad\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\farex\\Documents\\GitHub\\Projekat-AutoOtpad AutoDijelovi\\AutoOtpad\\wwwroot\\lib\\jquery\\dist\\jquery.slim.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.js"
+    },
+    {
+      "Id": "C:\\Users\\farex\\Documents\\GitHub\\Projekat-AutoOtpad AutoDijelovi\\AutoOtpad\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.js"
+    },
+    {
+      "Id": "C:\\Users\\farex\\Documents\\GitHub\\Projekat-AutoOtpad AutoDijelovi\\AutoOtpad\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.map"
+    },
+    {
+      "Id": "obj\\Release\\net9.0\\staticwebassets\\msbuild.AutoOtpad.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Release\\net9.0\\staticwebassets\\msbuild.AutoOtpad.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net9.0\\staticwebassets\\msbuild.build.AutoOtpad.props",
+      "PackagePath": "build\\AutoOtpad.props"
+    },
+    {
+      "Id": "obj\\Release\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.AutoOtpad.props",
+      "PackagePath": "buildMultiTargeting\\AutoOtpad.props"
+    },
+    {
+      "Id": "obj\\Release\\net9.0\\staticwebassets\\msbuild.buildTransitive.AutoOtpad.props",
+      "PackagePath": "buildTransitive\\AutoOtpad.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,141 @@
+is_global = true
+build_property.TargetFramework = net9.0
+build_property.TargetFramework = net9.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = AutoOtpad
+build_property.RootNamespace = AutoOtpad
+build_property.ProjectDir = C:\Users\farex\Documents\GitHub\Projekat-AutoOtpad AutoDijelovi\AutoOtpad\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 9.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\farex\Documents\GitHub\Projekat-AutoOtpad AutoDijelovi\AutoOtpad
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 9.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/farex/Documents/GitHub/Projekat-AutoOtpad AutoDijelovi/AutoOtpad/Views/Cart/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/farex/Documents/GitHub/Projekat-AutoOtpad AutoDijelovi/AutoOtpad/Views/Home/AboutUs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dFVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/farex/Documents/GitHub/Projekat-AutoOtpad AutoDijelovi/AutoOtpad/Views/Home/Contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/farex/Documents/GitHub/Projekat-AutoOtpad AutoDijelovi/AutoOtpad/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/farex/Documents/GitHub/Projekat-AutoOtpad AutoDijelovi/AutoOtpad/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/farex/Documents/GitHub/Projekat-AutoOtpad AutoDijelovi/AutoOtpad/Views/Message/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVzc2FnZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/farex/Documents/GitHub/Projekat-AutoOtpad AutoDijelovi/AutoOtpad/Views/Order/AllOrders.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcQWxsT3JkZXJzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/farex/Documents/GitHub/Projekat-AutoOtpad AutoDijelovi/AutoOtpad/Views/Order/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/farex/Documents/GitHub/Projekat-AutoOtpad AutoDijelovi/AutoOtpad/Views/Order/MyOrders.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcTXlPcmRlcnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/farex/Documents/GitHub/Projekat-AutoOtpad AutoDijelovi/AutoOtpad/Views/Part/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydFxBZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/farex/Documents/GitHub/Projekat-AutoOtpad AutoDijelovi/AutoOtpad/Views/Part/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydFxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/farex/Documents/GitHub/Projekat-AutoOtpad AutoDijelovi/AutoOtpad/Views/Part/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/farex/Documents/GitHub/Projekat-AutoOtpad AutoDijelovi/AutoOtpad/Views/Part/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/farex/Documents/GitHub/Projekat-AutoOtpad AutoDijelovi/AutoOtpad/Views/Part/Test.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydFxUZXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/farex/Documents/GitHub/Projekat-AutoOtpad AutoDijelovi/AutoOtpad/Views/Promotion/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvbW90aW9uXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/farex/Documents/GitHub/Projekat-AutoOtpad AutoDijelovi/AutoOtpad/Views/Promotion/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvbW90aW9uXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/farex/Documents/GitHub/Projekat-AutoOtpad AutoDijelovi/AutoOtpad/Views/Promotion/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvbW90aW9uXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/farex/Documents/GitHub/Projekat-AutoOtpad AutoDijelovi/AutoOtpad/Views/Promotion/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvbW90aW9uXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/farex/Documents/GitHub/Projekat-AutoOtpad AutoDijelovi/AutoOtpad/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/farex/Documents/GitHub/Projekat-AutoOtpad AutoDijelovi/AutoOtpad/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/farex/Documents/GitHub/Projekat-AutoOtpad AutoDijelovi/AutoOtpad/Views/User/Account.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxBY2NvdW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/farex/Documents/GitHub/Projekat-AutoOtpad AutoDijelovi/AutoOtpad/Views/User/AllUsers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxBbGxVc2Vycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/farex/Documents/GitHub/Projekat-AutoOtpad AutoDijelovi/AutoOtpad/Views/User/EditRole.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxFZGl0Um9sZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/farex/Documents/GitHub/Projekat-AutoOtpad AutoDijelovi/AutoOtpad/Views/User/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/farex/Documents/GitHub/Projekat-AutoOtpad AutoDijelovi/AutoOtpad/Views/User/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/farex/Documents/GitHub/Projekat-AutoOtpad AutoDijelovi/AutoOtpad/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/farex/Documents/GitHub/Projekat-AutoOtpad AutoDijelovi/AutoOtpad/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/farex/Documents/GitHub/Projekat-AutoOtpad AutoDijelovi/AutoOtpad/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-5l7l949xts

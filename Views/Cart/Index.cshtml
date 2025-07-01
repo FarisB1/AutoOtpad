@@ -1,0 +1,55 @@
+﻿@model List<AutoOtpad.Models.CartItem>
+
+@{
+    ViewData["Title"] = "Vaša korpa";
+    decimal total = Model.Sum(item => item.Price * item.Quantity);
+}
+
+<h2>Vaša korpa</h2>
+
+@if (!Model.Any())
+{
+    <div class="alert alert-info">
+        Vaša korpa je prazna.
+    </div>
+}
+else
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Slika</th>
+                <th>Naziv dijela</th>
+                <th>Cijena (KM)</th>
+                <th>Količina</th>
+                <th>Ukupno (KM)</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        <img src="@item.ImagePath" alt="@item.PartName" style="width: 80px; height: auto;" />
+                    </td>
+                    <td>@item.PartName</td>
+                    <td>@item.Price.ToString("0.00")</td>
+                    <td>@item.Quantity</td>
+                    <td>@(item.Price * item.Quantity)</td>
+                </tr>
+            }
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4" class="text-end"><strong>Ukupno:</strong></td>
+                <td><strong>@total KM</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <form asp-action="PlaceOrder" method="post" class="d-inline">
+        <button type="submit" class="btn btn-success">Završi narudžbu</button>
+    </form>
+
+    <a asp-action="ClearCart" class="btn btn-danger ms-2">Isprazni korpu</a>
+}

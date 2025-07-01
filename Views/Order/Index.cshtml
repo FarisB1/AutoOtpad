@@ -1,0 +1,20 @@
+﻿@model List<Order>
+
+<h2>Moje narudžbe</h2>
+
+@foreach (var order in Model)
+{
+    <div class="card mb-3">
+        <div class="card-header">
+            Narudžba #@order.Id - @order.Status - @order.OrderDate.ToShortDateString()
+        </div>
+        <div class="card-body">
+            <ul>
+                @foreach (var item in order.Items)
+                {
+                    <li>@item.Part.Name x @item.Quantity (@item.Price.ToString("0.00") KM)</li>
+                }
+            </ul>
+        </div>
+    </div>
+}

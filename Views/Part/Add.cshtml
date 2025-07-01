@@ -1,0 +1,54 @@
+﻿@model AutoOtpad.Models.Part
+
+@{
+    ViewData["Title"] = "Unos novog dijela";
+}
+@if (string.Compare(Context.Session.GetString("Role"), "Admin") == 0)
+{
+<h2>@ViewData["Title"]</h2>
+
+    <form asp-action="Add" method="post" class="container mt-4" enctype="multipart/form-data">
+        <div class="mb-3">
+            <label asp-for="Name" class="form-label">Naziv dijela</label>
+            <input asp-for="Name" class="form-control" />
+        </div>
+        <div class="mb-3">
+            <label asp-for="VehicleMake" class="form-label">Marka vozila</label>
+            <input asp-for="VehicleMake" class="form-control" />
+        </div>
+        <div class="mb-3">
+            <label asp-for="PartType" class="form-label">Tip dijela</label>
+            <input asp-for="PartType" class="form-control" />
+        </div>
+        <div class="mb-3">
+            <label asp-for="Condition" class="form-label">Stanje</label>
+            <input asp-for="Condition" class="form-control" />
+        </div>
+        <div class="mb-3">
+            <label asp-for="Price" class="form-label">Cijena</label>
+            <input asp-for="Price" class="form-control" />
+        </div>
+        <div class="mb-3">
+            <label asp-for="QuantityInStock" class="form-label">Količina</label>
+            <input asp-for="QuantityInStock" class="form-control" />
+        </div>
+        <div class="form-check mb-3">
+            <input asp-for="IsTested" class="form-check-input" />
+            <label asp-for="IsTested" class="form-check-label">Testiran</label>
+        </div>
+        <div class="mb-3">
+            <label asp-for="Status" class="form-label">Status</label>
+            <input asp-for="Status" class="form-control" />
+        </div>
+        <div class="mb-3">
+            <label for="ImageFile" class="form-label">Slika dijela</label>
+            <input type="file" name="ImageFile" class="form-control" accept="image/*" />
+        </div>
+
+        <button type="submit" class="btn btn-success">Dodaj dio</button>
+    </form>
+}
+else
+{
+    <h1 style="margin-top: 22vh; margin-bottom: 22vh; text-align:center">Nemate pristup ovoj stranici</h1>
+}

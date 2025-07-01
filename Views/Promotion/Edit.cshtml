@@ -1,0 +1,59 @@
+﻿@model AutoOtpad.Models.Promotion
+@using Microsoft.AspNetCore.Mvc.Rendering
+
+@{
+    ViewBag.Title = "Uredi Promociju";
+    var parts = ViewBag.Parts as SelectList;
+}
+@if (string.Compare(Context.Session.GetString("Role"), "Admin") == 0)
+{
+
+<h2>Uredi Promociju</h2>
+
+<form asp-action="Edit" method="post">
+    <input type="hidden" asp-for="Id" />
+
+    <div class="form-group">
+        <label asp-for="Name" class="form-label">Naziv promocije</label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="PartId">Dio</label>
+        <select asp-for="PartId" class="form-control" asp-items="parts">
+            <option value="">-- Odaberi dio --</option>
+        </select>
+        <span asp-validation-for="PartId" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="DiscountPercentage" class="form-label">Popust (%)</label>
+        <input asp-for="DiscountPercentage" class="form-control" />
+        <span asp-validation-for="DiscountPercentage" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="StartDate" class="form-label">Početak</label>
+        <input asp-for="StartDate" type="date" class="form-control" />
+        <span asp-validation-for="StartDate" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="EndDate" class="form-label">Kraj</label>
+        <input asp-for="EndDate" type="date" class="form-control" />
+        <span asp-validation-for="EndDate" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Sačuvaj Promjene</button>
+    <a asp-action="Index" class="btn btn-secondary">Nazad</a>
+</form>
+
+}
+else
+{
+    <h1 style="margin-top: 22vh; margin-bottom: 22vh; text-align:center">Nemate pristup ovoj stranici</h1>
+}
+@section Scripts {
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+}

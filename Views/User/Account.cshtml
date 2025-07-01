@@ -1,0 +1,27 @@
+﻿@model AutoOtpad.Models.User
+@{
+    ViewData["Title"] = "Moj račun";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+@if (ViewData["Message"] != null)
+{
+    <div class="alert alert-success">@ViewData["Message"]</div>
+}
+
+<form method="post" action="/User/Account" class="container mt-4" style="max-width: 500px;">
+    <div class="mb-3">
+        <label class="form-label">Korisničko ime</label>
+        <input name="username" value="@Model.Username" class="form-control" required />
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Email</label>
+        <input name="email" type="email" value="@Model.Email" class="form-control" required />
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Novi password (opcionalno)</label>
+        <input name="password" type="password" class="form-control" placeholder="Ostavite prazno ako ne želite mijenjati" minlength="6" />
+    </div>
+    <button type="submit" class="btn btn-primary">Update Account</button>
+</form>

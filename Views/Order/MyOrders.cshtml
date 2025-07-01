@@ -1,0 +1,41 @@
+﻿@model List<AutoOtpad.Models.Order>
+
+@{
+    ViewData["Title"] = "Moje narudžbe";
+}
+
+<h2>Moje narudžbe</h2>
+
+@if (!Model.Any())
+{
+    <div class="alert alert-info">
+        Trenutno nemate nijednu narudžbu.
+    </div>
+}
+else
+{
+    foreach (var order in Model)
+    {
+        <div class="card mb-4">
+            <div class="card-header bg-primary text-white">
+                Narudžba #@order.Id – @order.Status – @order.OrderDate.ToString("dd.MM.yyyy.")
+            </div>
+            <div class="card-body">
+                <ul class="list-group">
+                    @foreach (var item in order.Items)
+                    {
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            <div>
+                                <strong>@item.Part.Name</strong> – @item.Quantity kom.
+                            </div>
+                            <span>@(item.Price.ToString("0.00")) KM</span>
+                        </li>
+                    }
+                </ul>
+            </div>
+            <div class="card-footer text-end">
+                <strong>Ukupno: @order.Items.Sum(i => i.Price * i.Quantity).ToString("0.00") KM</strong>
+            </div>
+        </div>
+    }
+}

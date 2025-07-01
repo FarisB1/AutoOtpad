@@ -1,0 +1,24 @@
+﻿@model AutoOtpad.Models.User
+@{
+    ViewData["Title"] = "Uredi Ulogu";
+}
+@if(string.Compare(Context.Session.GetString("Role"),"Admin") == 0)
+{
+<h2>Uredi Ulogu za korisnika: @Model.Username</h2>
+
+<form asp-action="EditRole" method="post">
+    <input type="hidden" asp-for="Id" />
+
+    <div class="form-group">
+        <label asp-for="Role">Uloga</label>
+        <select asp-for="Role" class="form-control" asp-items="ViewBag.RoleOptions"></select>
+    </div>
+
+    <button type="submit" class="btn btn-primary mt-2">Spasi</button>
+    <a asp-action="AllUsers" class="btn btn-secondary mt-2">Nazad</a>
+</form>
+}
+else
+    {
+        <h1 style="margin-top: 22vh; margin-bottom: 22vh; text-align:center">Nemate pristup ovoj stranici</h1>
+    }

@@ -1,0 +1,187 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - AutoOtpad</title>
+    <script type="importmap"></script>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/AutoOtpad.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/nicepage.css" media="screen">
+    <script class="u-script" type="text/javascript" src="~/js/jquery.js" defer=""></script>
+    <script class="u-script" type="text/javascript" src="~/js/nicepage.js" defer=""></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
+
+</head>
+<body>
+    <header class="u-clearfix u-header" id="sec-5e53" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction="">
+        <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+            <a href="#" class="u-enable-responsive u-image u-logo u-image-1" data-image-width="233" data-image-height="94">
+                <img src="~/images/AFYC3.png" class="u-logo-image u-logo-image-1">
+            </a>
+            <nav class="u-menu u-menu-one-level u-offcanvas u-menu-1" data-responsive-from="MD">
+                <div class="menu-collapse" style="font-size: 1rem; letter-spacing: 0px; font-weight: 600;">
+                    <a class="u-button-style u-custom-active-border-color u-custom-border u-custom-border-color u-custom-borders u-custom-hover-border-color u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-text-color u-custom-text-hover-color u-custom-top-bottom-menu-spacing u-hamburger-link u-nav-link u-text-active-palette-1-light-1 u-text-hover-palette-1-light-1 u-text-palette-1-base" href="#">
+                        <svg class="u-svg-link" viewBox="0 0 24 24"><use xlink:href="#menu-hamburger"></use></svg>
+                        <svg class="u-svg-content" version="1.1" id="menu-hamburger" viewBox="0 0 16 16" x="0px" y="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+                            <g>
+                                <rect y="1" width="16" height="2"></rect><rect y="7" width="16" height="2"></rect><rect y="13" width="16" height="2"></rect>
+                            </g>
+                        </svg>
+                    </a>
+                </div>
+                <div class="u-custom-menu u-nav-container">
+                    <ul class="u-nav u-spacing-10 u-unstyled u-nav-1">
+                        <li class="u-nav-item">
+                            <a class="u-button-style u-nav-link" asp-controller="Home" asp-action="Index">Početna</a>
+                        </li>
+                        <li class="u-nav-item">
+                            <a class="u-button-style u-nav-link" asp-controller="Home" asp-action="AboutUs">O nama</a>
+                        </li>
+                        <li class="u-nav-item">
+                            <a class="u-button-style u-nav-link" asp-controller="Home" asp-action="Contact">Kontakt</a>
+                        </li>
+
+
+                        @if (Context.Session.GetString("Username") != null)
+                        {
+                            <li class="u-nav-item">
+                                <a class="u-button-style u-nav-link" asp-controller="Part" asp-action="Index">Dijelovi</a>
+                            </li>
+                            @if (string.Compare(Context.Session.GetString("Role"), "Admin") == 0)
+                            {
+                                <li class="u-nav-item"><a class="u-button-style u-nav-link" asp-controller="Promotion" asp-action="Index">Promocije</a></li>
+                                <li class="u-nav-item"><a class="u-button-style u-nav-link" asp-controller="User" asp-action="AllUsers">Korisnici</a></li>
+
+                                <li class="u-nav-item">
+                                    <a class="u-button-style u-nav-link" asp-controller="Order" asp-action="AllOrders">Narudžbe</a>
+                                </li>
+                            }
+
+                            @if (string.Compare(Context.Session.GetString("Role"), "User") == 0)
+                            {
+                                <li class="u-nav-item">
+                                    <a class="u-button-style u-nav-link" asp-controller="Order" asp-action="MyOrders">Narudžbe</a>
+                                </li>
+                            }
+                            <li class="u-nav-item">
+                                <a class="u-button-style u-nav-link" asp-controller="Cart" asp-action="Index">Korpa</a>
+                            </li>
+                            <li class="u-nav-item">
+                                <a class="u-button-style u-nav-link" asp-controller="Message" asp-action="Index">Poruke</a>
+                            </li>
+                            <li class="u-nav-item">
+                                <a class="u-button-style u-nav-link" asp-controller="User" asp-action="Account">
+                                    @Context.Session.GetString("Username")
+                                </a>
+                            </li>
+
+                            <li class="u-nav-item">
+                                <a class="u-button-style u-nav-link text-danger" asp-controller="User" asp-action="Logout">Odjava</a>
+                            </li>
+                        }
+                        else
+                        {
+                            <li class="u-nav-item">
+                                <a class="u-button-style u-nav-link" asp-controller="User" asp-action="Login">Prijava</a>
+                            </li>
+                            <li class="u-nav-item">
+                                <a class="u-button-style u-nav-link" asp-controller="User" asp-action="Register">Registracija</a>
+                            </li>
+                        }
+                    </ul>
+                </div>
+
+                <div class="u-custom-menu u-nav-container-collapse">
+                    <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
+                        <div class="u-inner-container-layout u-sidenav-overflow">
+                            <div class="u-menu-close"></div>
+                            <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2">
+                                <li class="u-nav-item"><a class="u-button-style u-nav-link" asp-controller="Home" asp-action="Index">Početna</a></li>
+                                <li class="u-nav-item"><a class="u-button-style u-nav-link" asp-controller="Home" asp-action="AboutUs">O nama</a></li>
+                                <li class="u-nav-item"><a class="u-button-style u-nav-link" asp-controller="Home" asp-action="Contact">Kontakt</a></li>
+
+                                @if (Context.Session.GetString("Username") != null)
+                                {
+                                    <li class="u-nav-item"><a class="u-button-style u-nav-link" asp-controller="Part" asp-action="Index">Dijelovi</a></li>
+                                    <li class="u-nav-item"><a class="u-button-style u-nav-link" asp-controller="Order" asp-action="Create">Korpa</a></li>
+                                    <li class="u-nav-item"><a class="u-button-style u-nav-link" asp-controller="Order" asp-action="MyOrders">Narudžbe</a></li>
+                                    <li class="u-nav-item"><a class="u-button-style u-nav-link" asp-controller="Message" asp-action="Index">Narudžbe</a></li>
+                                    @if (string.Compare(Context.Session.GetString("Role"),"Admin") == 0){
+                                        <li class="u-nav-item"><a class="u-button-style u-nav-link" asp-controller="Promotion" asp-action="Index">Promocije</a></li>
+                                    }
+                                    <li class="u-nav-item"><a class="u-button-style u-nav-link" asp-controller="User" asp-action="Account">@Context.Session.GetString("Username")</a></li>
+                                    <li class="u-nav-item"><a class="u-button-style u-nav-link text-danger" asp-controller="User" asp-action="Logout">Odjava</a></li>
+                                }
+                                else
+                                {
+                                    <li class="u-nav-item"><a class="u-button-style u-nav-link" asp-controller="User" asp-action="Login">Prijava</a></li>
+                                    <li class="u-nav-item"><a class="u-button-style u-nav-link" asp-controller="User" asp-action="Register">Registracija</a></li>
+                                }
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
+                </div>
+
+                
+            </nav>
+        </div>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+
+
+
+    <footer class="u-align-center u-clearfix u-container-align-center u-container-align-center-lg u-container-align-center-md u-container-align-center-xl u-container-align-left-sm u-container-align-left-xs u-footer u-palette-1-dark-3 u-footer" id="sec-bccd">
+        <div class="u-clearfix u-sheet u-valign-middle-lg u-valign-middle-md u-valign-middle-sm u-valign-middle-xs u-sheet-1">
+            <div class="data-layout-selected u-clearfix u-expanded-width u-layout-wrap u-layout-wrap-1">
+                <div class="u-layout">
+                    <div class="u-layout-row">
+                        <div class="u-container-style u-layout-cell u-shape-rectangle u-size-14-lg u-size-14-xl u-size-22-md u-size-22-sm u-size-22-xs u-layout-cell-1">
+                            <div class="u-container-layout u-valign-middle u-container-layout-1">
+                                <img class="u-image u-image-contain u-image-default u-image-1" src="~/images/AFYC_white.png" alt="" data-image-width="233" data-image-height="94">
+                            </div>
+                        </div>
+                        <div class="u-container-align-left-md u-container-align-left-sm u-container-align-left-xs u-container-align-right-lg u-container-align-right-xl u-container-style u-layout-cell u-size-19-lg u-size-21-xl u-size-38-md u-size-38-sm u-size-38-xs u-layout-cell-2">
+                            <div class="u-container-layout u-valign-middle u-container-layout-2">
+                                <p class="u-align-left-md u-align-left-sm u-align-left-xs u-align-right-lg u-align-right-xl u-text u-text-default u-text-1">Naši popusti i promocije</p>
+                            </div>
+                        </div>
+                        <div class="u-container-align-left-sm u-container-align-left-xs u-container-style u-layout-cell u-size-25-xl u-size-27-lg u-size-60-md u-size-60-sm u-size-60-xs u-layout-cell-3">
+                            <div class="u-container-layout u-valign-middle-xl u-container-layout-3">
+                                <div class="u-form u-form-1">
+                                    <form action="https://forms.nicepagesrv.com/v2/form/process" class="u-clearfix u-form-horizontal u-form-spacing-10 u-inner-form" source="email" name="form" style="padding: 2px;">
+                                        <div class="u-form-email u-form-group u-label-none u-form-group-1">
+                                            <label for="email-175e" class="u-label">Email</label>
+                                            <input type="email" placeholder="Unesite email adresu" id="email-175e" name="email" class="u-border-no-left u-border-no-right u-border-no-top u-input u-input-rectangle u-input-1" required="">
+                                        </div>
+                                        <div class="u-align-center u-form-group u-form-submit u-label-none u-form-group-2">
+                                            <a href="#" class="u-border-none u-btn u-btn-submit u-button-style u-palette-1-base u-btn-1">PRijavite se</a>
+                                            <input type="submit" value="submit" class="u-form-control-hidden">
+                                        </div>
+                                        <div class="u-form-send-message u-form-send-success"> Thank you! Your message has been sent. </div>
+                                        <div class="u-form-send-error u-form-send-message"> Unable to send your message. Please fix errors then try again. </div>
+                                        <input type="hidden" value="" name="recaptchaResponse">
+                                        <input type="hidden" name="formServices" value="48e478bd-8339-25c6-ab28-3883f5a739b5">
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

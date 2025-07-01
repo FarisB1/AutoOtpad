@@ -1,0 +1,66 @@
+﻿@model List<AutoOtpad.Models.Order>
+
+@{
+    ViewData["Title"] = "Sve narudžbe (Admin)";
+}
+@if (string.Compare(Context.Session.GetString("Role"), "Admin") == 0)
+{
+
+<h2 class="mb-4">Sve narudžbe</h2>
+
+@if (!Model.Any())
+{
+    <div class="alert alert-info">Nema narudžbi.</div>
+}
+else
+{
+    foreach (var order in Model)
+    {
+        <div class="card mb-4">
+            <div class="card-header bg-secondary text-white d-flex justify-content-between">
+                <div>
+                    Narudžba #@order.Id – @order.Status – @order.OrderDate.ToString("dd.MM.yyyy")
+                    <br />
+                    <small>Korisnik: @order.User?.Username (@order.User?.Email)</small>
+                </div>
+                <form asp-action="Delete" asp-route-id="@order.Id" method="post" onsubmit="return confirm('Jeste li sigurni da želite obrisati ovu narudžbu?');">
+                    <button type="submit" class="btn btn-sm btn-danger">Obriši</button>
+                </form>
+            </div>
+            <div class="card-body">
+                <ul class="list-group mb-3">
+                    @foreach (var item in order.Items)
+                    {
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            <div>@item.Part.Name x @item.Quantity</div>
+                            <span>@(item.Price.ToString("0.00")) KM</span>
+                        </li>
+                    }
+                </ul>
+                <strong>Ukupno: @order.Items.Sum(i => i.Price * i.Quantity).ToString("0.00") KM</strong>
+            </div>
+            <div class="card-footer">
+                <form asp-action="UpdateStatus" method="post" class="d-flex align-items-center gap-2">
+                    <input type="hidden" name="id" value="@order.Id" />
+                    <select name="status" class="form-select w-auto">
+                        @{
+                            var statuses = new[] { "Pending", "Shipped", "Delivered", "Cancelled" };
+                        }
+                        @foreach (var status in statuses)
+                        {
+                            <option value="@status" selected="@(order.Status == status)">
+                                @status
+                            </option>
+                        }
+                    </select>
+                    <button type="submit" class="btn btn-primary btn-sm">Ažuriraj status</button>
+                </form>
+            </div>
+        </div>
+    }
+}
+}
+else
+{
+    <h1 style="margin-top: 22vh; margin-bottom: 22vh; text-align:center">Nemate pristup ovoj stranici</h1>
+}
